@@ -88,6 +88,21 @@ php bin/magento module:disable Magento_TwoFactorAuth
 php bin/magento cache:flush
 ```
 
-Now your magento should be running fine.
+### Step 6:- Make Db changes
+
+> You should be facing the issue of frontend and backend not working properly, For that make below change
+```
+Rename .htaccess file
+Move .htaccess file from pub folder to your magento folder (Magento_243)
+Copy index.php file of 2.4.1 to your magento folder (Magento_243)
+Using insert query in core_config table for add below records 
+	path -> web/unsecure/base_media_url value -> http://127.0.0.1/magento243/pub/media/
+	path -> web/unsecure/base_static_url value -> http://127.0.0.1/magento243/pub/static/
+	path -> web/secure/base_static_url value -> http://127.0.0.1/magento243/pub/static/
+	path -> web/secure/base_media_url value -> http://127.0.0.1/magento243/pub/media/
+Apply query in core_config_data INSERT INTO core_config_data (path, value) VALUES ('dev/static/sign', 0) ON DUPLICATE KEY UPDATE value = 0;
+```
+
+**Now your magento should be running fine.
 
 
