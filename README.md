@@ -90,7 +90,7 @@ php bin/magento cache:flush
 
 ### Step 6:- Make Db changes
 
-> You should be facing the issue of frontend and backend not working properly, For that make below change
+> You should be facing the issue of frontend and backend not working properly, For that make below changes:-
 ```
 1. Rename .htaccess file
 2. Move .htaccess file from pub folder to your magento folder (Magento_243)
