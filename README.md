@@ -5,7 +5,7 @@
 
 ### Step 1:- Download package and Install php 7.4
 
-Download Package from this link:- [ReferenceLink] (https://magento.com/tech-resources/download)
+Download Package from this link:- [ReferenceLink](https://magento.com/tech-resources/download)
 
 **Install php 7.4 using below commands**
 ```
@@ -23,7 +23,7 @@ Make sure to install the php extensions according to your need.
 
 ### Step 2:- Install Elastic Search
 
-If you want to follow a Reference link then Here is the link:- [Reference Link] (https://www.howtoforge.com/tutorial/ubuntu-elastic-stack/)
+If you want to follow a Reference link then Here is the link:- [Reference Link](https://www.howtoforge.com/tutorial/ubuntu-elastic-stack/)
 
 Instead of the reference link you can follow these commands as well:-
 ```
