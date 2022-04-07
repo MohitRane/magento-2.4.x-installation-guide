@@ -1,9 +1,7 @@
 # Magento-2.4.x-installation-guide for Linux Users
 
 
-## Install Magento 2.4.x
-
-### Step 1:- Download package and Install php 7.4
+### Step 1:- Download 2.4.x package and Install php 7.4
 
 Download Package from this link:- [ReferenceLink](https://magento.com/tech-resources/download)
 
