@@ -3,7 +3,7 @@
 
 ## Install Magento 2.4 [Linux Users]
 
-###> Step 1:- Download package and Install php 7.4
+### Step 1:- Download package and Install php 7.4
 
 Download Package from this link:- [ReferenceLink] (https://magento.com/tech-resources/download)
 
@@ -20,7 +20,7 @@ Download Package from this link:- [ReferenceLink] (https://magento.com/tech-reso
 
 Make sure to install the php extensions according to your need.
 
-###> Step 2:- Install Elastic Search
+### Step 2:- Install Elastic Search
 
 If you want to follow a Reference link then Here is the link:- [Reference Link] (https://www.howtoforge.com/tutorial/ubuntu-elastic-stack/)
 
@@ -43,7 +43,7 @@ Uncomment the 'network.host' line and change the value to '127.0.0.1', and uncom
 	network.host: 127.0.0.1
 	http.port: 9200
 
-###> Step 3:- Start and Enable Elastic search
+### Step 3:- Start and Enable Elastic search
 
 Now start the elasticsearch service and enable it to launch every time on system boot.
   ```
@@ -62,7 +62,7 @@ Now you will get the elasticsearch version '7.x' is running on the default port 
 The elasticsearch installation has been completed.
 
 
-###> Step 4:- Install Magento
+### Step 4:- Install Magento
 
 After Elastic search installation run below command in your magento directory:-
 
@@ -72,7 +72,7 @@ After Elastic search installation run below command in your magento directory:-
 
 Make sure to add at the end of the command `--elasticsearch-host=127.0.0.1` and also change db name and baseurl according to your localhost.
 
-###> Step 5:- Install Magento
+### Step 5:- Install Magento
 
 If you're not sure about your admin url you can simply use below command to get your admin url,
 
