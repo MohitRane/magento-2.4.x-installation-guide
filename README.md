@@ -74,7 +74,7 @@ php bin/magento setup:install --base-url=http://127.0.0.1/magento243/ --db-host=
 
 Make sure to add at the end of the command `--elasticsearch-host=127.0.0.1` and also change db name and baseurl according to your magento folder name.
 
-### Step 5:- Install Magento
+### Step 5:- Disable Magento_TwoFactorAuth
 
 If you're not sure about your admin url you can simply use below command to get your admin url,
 
